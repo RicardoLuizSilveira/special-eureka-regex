@@ -4,6 +4,7 @@
   - [Literais](#literais)
   - [Metacaracteres](#metacaracteres)
   - [Ponto](#ponto)
+  - [Desafios](#desafios)
 
 ## Literais
 *File: [Literais.js](caracteres/Literais.js)*
@@ -37,3 +38,7 @@
 . é um coringa, válido para uma posição
 
 *File: [Ponto](caracteres/Ponto.js)*
+
+
+## Desafios
+01 [Extrair extensão de arquivo](caracteres/DesafioListaArquivos.js)
