@@ -53,3 +53,19 @@
 
 ## Desafios
 01 [Extrair extensão de arquivo](caracteres/DesafioListaArquivos.js)
+
+extrair .mp3 apenas os arquivos
+```js
+const texto = 'lista de arquivos mp3: jazz.mp3,rock.mp3,podcast.mp3,blues.mp3'
+console.log(texto.match(/<your regex here>/g))
+```
+expected result: [ '.mp3', '.mp3', '.mp3', '.mp3' ]
+
+02 [Três espaços](caracteres/DesafioTresEspacos.js)
+
+encontrar a expressão 'a___b' *(___ significam 3 espaços)*
+```js
+const texto = 'a   b'
+console.log(texto.match(/<your regex here>/))
+```
+expected result: `[ 'a___b' ]`
