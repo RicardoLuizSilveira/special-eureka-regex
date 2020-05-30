@@ -1,18 +1,19 @@
 # special-eureka-regex
 
 - [special-eureka-regex](#special-eureka-regex)
-    - [Literais](#literais)
-    - [Metacaracteres](#metacaracteres)
+  - [Literais](#literais)
+  - [Metacaracteres](#metacaracteres)
+  - [Ponto](#ponto)
 
-### Literais
-File: [Literais.js](caracteres/Literais.js)
+## Literais
+*File: [Literais.js](caracteres/Literais.js)*
 
 
-### Metacaracteres 
+## Metacaracteres 
 | Metacaractere       | Nome             | Significado                        |
 | ------------------- | ---------------- | ---------------------------------- |
 | **Representantes**  |                  |                                    |
-| .                   | ponto:           | Um caractere                       |
+| .                   | ponto:           | Um caractere necessáriamente       |
 | []                  | conjunto:        | Conjunto de caracteres permitidos  |
 | [^]                 | conjunto negado: | Conjunto de caracteres proibidos   |
 | **Quantificadores** |                  |                                    |
@@ -30,4 +31,9 @@ File: [Literais.js](caracteres/Literais.js)
 | ( )                 | Grupo            | Define um grupo                    |
 | \1...\9             | Retrovisor       | Resgata grupos já definidos        |
 
-File: [Metacaracrteres.js](caracteres/Metacaracrteres.js)
+*File: [Metacaracteres](caracteres/Metacaracrteres.js)*
+
+## Ponto
+. é um coringa, válido para uma posição
+
+*File: [Ponto](caracteres/Ponto.js)*
