@@ -6,6 +6,8 @@
   - [Ponto](#ponto)
   - [Espaços](#espaços)
   - [Desafios](#desafios)
+      - [01 Extrair a extensão .mp3 de arquivos](#01-extrair-a-extensão-mp3-de-arquivos)
+      - [02 Encontrar expressão com espaços](#02-encontrar-expressão-com-espaços)
 
 ## Literais
 *File: [Literais.js](caracteres/Literais.js)*
@@ -52,20 +54,24 @@
 *File: [Espacos](caracteres/Espacos.js)*
 
 ## Desafios
-01 [Extrair extensão de arquivo](caracteres/DesafioListaArquivos.js)
+#### 01 Extrair a extensão .mp3 de arquivos
 
 extrair .mp3 apenas os arquivos
 ```js
 const texto = 'lista de arquivos mp3: jazz.mp3,rock.mp3,podcast.mp3,blues.mp3'
 console.log(texto.match(/<your regex here>/g))
 ```
-expected result: [ '.mp3', '.mp3', '.mp3', '.mp3' ]
+> expected result: [ '.mp3', '.mp3', '.mp3', '.mp3' ]
 
-02 [Três espaços](caracteres/DesafioTresEspacos.js)
+[Solution](caracteres/DesafioListaArquivos.js)
+
+#### 02 Encontrar expressão com espaços
 
 encontrar a expressão 'a___b' *(___ significam 3 espaços)*
 ```js
 const texto = 'a   b'
 console.log(texto.match(/<your regex here>/))
 ```
-expected result: `[ 'a___b' ]`
+> expected result: `[ 'a___b' ]`
+
+[Solution](caracteres/DesafioTresEspacos.js)
