@@ -4,6 +4,7 @@
   - [Literais](#literais)
   - [Metacaracteres](#metacaracteres)
   - [Ponto](#ponto)
+  - [Espaços](#espaços)
   - [Desafios](#desafios)
 
 ## Literais
@@ -39,6 +40,16 @@
 
 *File: [Ponto](caracteres/Ponto.js)*
 
+## Espaços
+**Espaços, Tabs e quebras de linha**
+| Metacaractere | Nome             |
+| ------------- | ---------------- |
+| \t            | tab              |
+| \s            | espaço em branco |
+| \n            | quebra de linha  |
+`\s` *também é um shorthand para* `\t \n \f`
+
+*File: [Espacos](caracteres/Espacos.js)*
 
 ## Desafios
 01 [Extrair extensão de arquivo](caracteres/DesafioListaArquivos.js)
