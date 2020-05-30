@@ -5,6 +5,7 @@
   - [Metacaracteres](#metacaracteres)
   - [Ponto](#ponto)
   - [Espaços](#espaços)
+  - [Ou (Pipe)](#ou-pipe)
   - [Desafios](#desafios)
       - [01 Extrair a extensão .mp3 de arquivos](#01-extrair-a-extensão-mp3-de-arquivos)
       - [02 Encontrar expressão com espaços](#02-encontrar-expressão-com-espaços)
@@ -53,6 +54,10 @@
 
 *File: [Espacos](caracteres/Espacos.js)*
 
+## Ou (Pipe)
+*File: [Ou](caracteres/Ou.js)*
+
+
 ## Desafios
 #### 01 Extrair a extensão .mp3 de arquivos
 
@@ -63,7 +68,7 @@ console.log(texto.match(/<your regex here>/g))
 ```
 > expected result: [ '.mp3', '.mp3', '.mp3', '.mp3' ]
 
-[Solution](caracteres/DesafioListaArquivos.js)
+*[Solution](caracteres/DesafioListaArquivos.js)*
 
 #### 02 Encontrar expressão com espaços
 
@@ -74,4 +79,4 @@ console.log(texto.match(/<your regex here>/))
 ```
 > expected result: `[ 'a___b' ]`
 
-[Solution](caracteres/DesafioTresEspacos.js)
+*[Solution](caracteres/DesafioTresEspacos.js)*
