@@ -7,6 +7,7 @@
   - [Espaços](#espaços)
   - [Ou (Pipe)](#ou-pipe)
   - [Problema do ponto](#problema-do-ponto)
+  - [Unicode](#unicode)
   - [Desafios](#desafios)
       - [01 Extrair a extensão .mp3 de arquivos](#01-extrair-a-extensão-mp3-de-arquivos)
       - [02 Encontrar expressão com espaços](#02-encontrar-expressão-com-espaços)
@@ -68,7 +69,22 @@ dotall - algumas linguagens tem uma flag para que o ponto englobe todos os carac
 
 *File: [Problema do ponto](caracteres/ProblemaPonto.js)*
 
+## Unicode
+no início...
 
+Um byte (8 bits) - 256 caracteres
+Símbolos, Pontuação, A-Z, a-z, 0-9
+
+Dois bytes (16 bits) - 65500+ caracteres
++Símbolos, +Pontuação, A-Z, a-z, 0-9
+
+Hoje
+
+Unicode com quantidade de Bytes Variável - Expansível. Suporta mais de 1 Milhão caracteres e atualmente tem mais de 100.000 caracteres atribuidos
+
+https://unicode-table.com/pt/
+
+*File: [Unicode](caracteres/Unicode.js)*
 
 
 ## Desafios
