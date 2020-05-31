@@ -6,6 +6,7 @@
   - [Ponto](#ponto)
   - [Espaços](#espaços)
   - [Ou (Pipe)](#ou-pipe)
+  - [Problema do ponto](#problema-do-ponto)
   - [Desafios](#desafios)
       - [01 Extrair a extensão .mp3 de arquivos](#01-extrair-a-extensão-mp3-de-arquivos)
       - [02 Encontrar expressão com espaços](#02-encontrar-expressão-com-espaços)
@@ -56,6 +57,18 @@
 
 ## Ou (Pipe)
 *File: [Ou](caracteres/Ou.js)*
+
+## Problema do ponto
+
+O ponto não engloba o \n am algumas linguagens, no entanto em algumas existe uma flag para que o ponto englobe todos os caracteres e isso é conhecido como 'dotall'
+
+dotall - algumas linguagens tem uma flag para que o ponto englobe todos os caracteres
+
+`/exp/s` no entanto JS não.
+
+*File: [Problema do ponto](caracteres/ProblemaPonto.js)*
+
+
 
 
 ## Desafios
