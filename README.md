@@ -14,6 +14,7 @@
     - [Intervalos](#intervalos)
     - [Conjuntos e Metacaracteres](#conjuntos-e-metacaracteres)
     - [Cuidados com intervalos](#cuidados-com-intervalos)
+    - [Shorthands](#shorthands)
   - [Desafios](#desafios)
       - [01 Extrair a extensão .mp3 de arquivos](#01-extrair-a-extensão-mp3-de-arquivos)
       - [02 Encontrar expressão com espaços](#02-encontrar-expressão-com-espaços)
@@ -118,6 +119,21 @@ como regra geral dentro de conjuntos metacaracteres assumem seu valor literal
 
 ### Cuidados com intervalos
 *File: [Cuidados com intervalos](Conjuntos/IntervalosCuidados.js)*
+
+### Shorthands
+Shorthands são atalhos para determinar alguns grupos de caracteres
+
+| Shorthand | conjunto          | descrição                                              |
+| --------- | ----------------- | ------------------------------------------------------ |
+| \w        | `/[A-Za-z1-9_]/`  | todos os caracteres                                    |
+| \W        | `/[^A-Za-z1-9_]/` | complementar de \w                                     |
+| \d        | `[1-9]`           | todos os dígitos                                       |
+| \D        | `[^1-9]`          | complementar de \d                                     |
+| \s        | `[ ]`             | espaços, tab e nova linha                              |
+| \s        | `[ \r\f\t\n]`     | espaços, tab, nova linha, retorno de carro e form feed |
+| \S        | `[^ \r\f\t\n]`    | complementar de \s                                     |
+
+*File: [shorthands](Conjuntos/Shorthands.js)*
 
 ## Desafios
 #### 01 Extrair a extensão .mp3 de arquivos
