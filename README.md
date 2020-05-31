@@ -1,22 +1,23 @@
 # special-eureka-regex
 
 - [special-eureka-regex](#special-eureka-regex)
-  - [Literais](#literais)
-  - [Metacaracteres](#metacaracteres)
-  - [Ponto](#ponto)
-  - [Espaços](#espaços)
-  - [Ou (Pipe)](#ou-pipe)
-  - [Problema do ponto](#problema-do-ponto)
-  - [Unicode](#unicode)
+  - [Caracteres](#caracteres)
+    - [Literais](#literais)
+    - [Metacaracteres](#metacaracteres)
+    - [Ponto](#ponto)
+    - [Espaços](#espaços)
+    - [Ou (Pipe)](#ou-pipe)
+    - [Problema do ponto](#problema-do-ponto)
+    - [Unicode](#unicode)
   - [Desafios](#desafios)
       - [01 Extrair a extensão .mp3 de arquivos](#01-extrair-a-extensão-mp3-de-arquivos)
       - [02 Encontrar expressão com espaços](#02-encontrar-expressão-com-espaços)
-
-## Literais
+## Caracteres
+### Literais
 *File: [Literais.js](caracteres/Literais.js)*
 
 
-## Metacaracteres 
+### Metacaracteres 
 | Metacaractere       | Nome             | Significado                        |
 | ------------------- | ---------------- | ---------------------------------- |
 | **Representantes**  |                  |                                    |
@@ -40,12 +41,12 @@
 
 *File: [Metacaracteres](caracteres/Metacaracrteres.js)*
 
-## Ponto
+### Ponto
 . é um coringa, válido para uma posição
 
 *File: [Ponto](caracteres/Ponto.js)*
 
-## Espaços
+### Espaços
 **Espaços, Tabs e quebras de linha**
 | Metacaractere | Nome             |
 | ------------- | ---------------- |
@@ -56,10 +57,10 @@
 
 *File: [Espacos](caracteres/Espacos.js)*
 
-## Ou (Pipe)
+### Ou (Pipe)
 *File: [Ou](caracteres/Ou.js)*
 
-## Problema do ponto
+### Problema do ponto
 
 O ponto não engloba o \n am algumas linguagens, no entanto em algumas existe uma flag para que o ponto englobe todos os caracteres e isso é conhecido como 'dotall'
 
@@ -69,7 +70,7 @@ dotall - algumas linguagens tem uma flag para que o ponto englobe todos os carac
 
 *File: [Problema do ponto](caracteres/ProblemaPonto.js)*
 
-## Unicode
+### Unicode
 no início...
 
 Um byte (8 bits) - 256 caracteres
