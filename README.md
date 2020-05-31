@@ -16,6 +16,7 @@
     - [Cuidados com intervalos](#cuidados-com-intervalos)
     - [Shorthands](#shorthands)
     - [Conjuntos Negados](#conjuntos-negados)
+    - [Conjuntos unicode](#conjuntos-unicode)
   - [Desafios](#desafios)
       - [01 Extrair a extensão .mp3 de arquivos](#01-extrair-a-extensão-mp3-de-arquivos)
       - [02 Encontrar expressão com espaços](#02-encontrar-expressão-com-espaços)
@@ -142,6 +143,11 @@ O ^ tem dois sentidos em regex.
 Quando usado **dentro** de um conjunto e no **início** nega o regex
 
 *File: [Conjuntos Negados](Conjuntos/ConjuntosNegados.js)*
+
+### Conjuntos unicode
+Como no português existem palavras acentuadas e o shorthand **\w** nãoconsidera acentuação, para selecionar esses caracteres pode ser necessário consultar atabela unicode e adicionar ou remover alguns caracteres.
+
+*File: [Conjuntos Unicode](Conjuntos/ConjuntosUnicode.js)*
 
 ## Desafios
 #### 01 Extrair a extensão .mp3 de arquivos
