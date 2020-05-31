@@ -9,6 +9,8 @@
     - [Ou (Pipe)](#ou-pipe)
     - [Problema do ponto](#problema-do-ponto)
     - [Unicode](#unicode)
+  - [Conjuntos](#conjuntos)
+    - [Conjuntos](#conjuntos-1)
   - [Desafios](#desafios)
       - [01 Extrair a extensão .mp3 de arquivos](#01-extrair-a-extensão-mp3-de-arquivos)
       - [02 Encontrar expressão com espaços](#02-encontrar-expressão-com-espaços)
@@ -86,6 +88,14 @@ Unicode com quantidade de Bytes Variável - Expansível. Suporta mais de 1 Milh�
 https://unicode-table.com/pt/
 
 *File: [Unicode](caracteres/Unicode.js)*
+
+## Conjuntos
+### Conjuntos
+Uma classe (ou conjunto) é definido usando-se []
+
+[aã] nesse exemplo o match ocorrerá para cada **a** ou **ã** dentro do texto. Fica claro que os elementos de um conjunto são avaliados com  condicional **OU**
+
+*File: [Conjunto](Conjuntos/Conjuntos.js)*
 
 
 ## Desafios
