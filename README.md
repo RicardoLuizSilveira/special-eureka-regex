@@ -13,6 +13,7 @@
     - [Conjuntos](#conjuntos-1)
     - [Intervalos](#intervalos)
     - [Conjuntos e Metacaracteres](#conjuntos-e-metacaracteres)
+    - [Cuidados com intervalos](#cuidados-com-intervalos)
   - [Desafios](#desafios)
       - [01 Extrair a extensão .mp3 de arquivos](#01-extrair-a-extensão-mp3-de-arquivos)
       - [02 Encontrar expressão com espaços](#02-encontrar-expressão-com-espaços)
@@ -114,6 +115,9 @@ Propriedades:
 como regra geral dentro de conjuntos metacaracteres assumem seu valor literal
 
 *File: [Conjuntos e Metacaracteres](Conjuntos/ConjuntosEMetacaracteres.js)*
+
+### Cuidados com intervalos
+*File: [Cuidados com intervalos](Conjuntos/IntervalosCuidados.js)*
 
 ## Desafios
 #### 01 Extrair a extensão .mp3 de arquivos
