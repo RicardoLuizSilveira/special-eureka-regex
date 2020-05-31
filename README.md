@@ -11,6 +11,7 @@
     - [Unicode](#unicode)
   - [Conjuntos](#conjuntos)
     - [Conjuntos](#conjuntos-1)
+    - [Intervalos](#intervalos)
   - [Desafios](#desafios)
       - [01 Extrair a extensão .mp3 de arquivos](#01-extrair-a-extensão-mp3-de-arquivos)
       - [02 Encontrar expressão com espaços](#02-encontrar-expressão-com-espaços)
@@ -97,6 +98,16 @@ Uma classe (ou conjunto) é definido usando-se []
 
 *File: [Conjunto](Conjuntos/Conjuntos.js)*
 
+### Intervalos
+Em um conjunto discreto e ordenado podemos usar intervalos para definir os elementos desejados do conjunto declarando os elementos limitrofes do intervalo desejado.
+`[A-F]` ou `[5-6]`
+
+Propriedades:
+- A ordem deve ser crescente.
+- Limites inclusive
+- notação `-`
+
+*File: [Intervalos](Conjuntos/Intervalos.js)*
 
 ## Desafios
 #### 01 Extrair a extensão .mp3 de arquivos
