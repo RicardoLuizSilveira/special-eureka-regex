@@ -21,6 +21,7 @@
     - [Zero Um](#zero-um)
     - [Um mais](#um-mais)
     - [Zero ou Mais](#zero-ou-mais)
+    - [Usando chaves](#usando-chaves)
   - [Desafios](#desafios)
       - [01 Extrair a extensão .mp3 de arquivos](#01-extrair-a-extensão-mp3-de-arquivos)
       - [02 Encontrar expressão com espaços](#02-encontrar-expressão-com-espaços)
@@ -37,9 +38,9 @@
 | []                  | conjunto:        | Conjunto de caracteres permitidos  |
 | [^]                 | conjunto negado: | Conjunto de caracteres proibidos   |
 | **Quantificadores** |                  |                                    |
-| ? {0,1}             | Opcional         | Zero ou um                         |
-| \* {0,}             | Asterisco        | Zero ou mais                       |
-| \+ {1,}             | Mais             | Um ou mais                         |
+| ?                   | Opcional         | Zero ou um {0,1}                   |
+| \*                  | Asterisco        | Zero ou mais {0,}                  |
+| \+                  | Mais             | Um ou mais {1,}                    |
 | {n, m}              | Chaves           | De n até m                         |
 | {n,}                | Chaves           | n ou mais                          |
 | {n}                 | Chaves           | exatamente n                       |
@@ -170,6 +171,11 @@ Como no português existem palavras acentuadas e o shorthand **\w** nãoconsider
 * é o quantificador zero ou mais, o caractere que estiver a esquerda desse simbolo pode estar presente várias vezes ou nenhuma
 
 *File: [Zero ou Mais](quantificadores/ZeroMais.js)*
+
+### Usando chaves
+* é o quantificador zero ou mais, o caractere que estiver a esquerda desse simbolo pode estar presente várias vezes ou nenhuma
+
+*File: [Usando chaves](quantificadores/UsandoChaves.js)*
 
 ## Desafios
 #### 01 Extrair a extensão .mp3 de arquivos
