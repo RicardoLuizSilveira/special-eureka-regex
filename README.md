@@ -22,6 +22,7 @@
     - [Um mais](#um-mais)
     - [Zero ou Mais](#zero-ou-mais)
     - [Usando chaves](#usando-chaves)
+    - [Greedy, (quantificadores gulosos)](#greedy-quantificadores-gulosos)
   - [Desafios](#desafios)
       - [01 Extrair a extensão .mp3 de arquivos](#01-extrair-a-extensão-mp3-de-arquivos)
       - [02 Encontrar expressão com espaços](#02-encontrar-expressão-com-espaços)
@@ -173,9 +174,12 @@ Como no português existem palavras acentuadas e o shorthand **\w** nãoconsider
 *File: [Zero ou Mais](quantificadores/ZeroMais.js)*
 
 ### Usando chaves
-* é o quantificador zero ou mais, o caractere que estiver a esquerda desse simbolo pode estar presente várias vezes ou nenhuma
-
 *File: [Usando chaves](quantificadores/UsandoChaves.js)*
+
+### Greedy, (quantificadores gulosos)
+Por padrão os quantificadores são gulosos mas o comportamento deles podem ser alterados
+
+*File: [Greedy](quantificadores/NaoGuloso.js)*
 
 ## Desafios
 #### 01 Extrair a extensão .mp3 de arquivos
