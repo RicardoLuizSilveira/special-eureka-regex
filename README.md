@@ -167,12 +167,12 @@ Como no português existem palavras acentuadas e o shorthand **\w** nãoconsider
 *File: [Zero Um](quantificadores/ZeroUm.js)*
 
 ### Um mais
-+ é o quantificador um ou mais, o caractere que estiver a esquerda desse simbolo deve estar presente uma vez  ou mais na expressão
+\+ é o quantificador um ou mais, o caractere que estiver a esquerda desse simbolo deve estar presente uma vez  ou mais na expressão
 
-*File: [Zero Um](quantificadores/UmMais.js)*
+*File: [Um ou mais](quantificadores/UmMais.js)*
 
 ### Zero ou Mais
-* é o quantificador zero ou mais, o caractere que estiver a esquerda desse simbolo pode estar presente várias vezes ou nenhuma
+\* é o quantificador zero ou mais, o caractere que estiver a esquerda desse simbolo pode estar presente várias vezes ou nenhuma
 
 *File: [Zero ou Mais](quantificadores/ZeroMais.js)*
 
