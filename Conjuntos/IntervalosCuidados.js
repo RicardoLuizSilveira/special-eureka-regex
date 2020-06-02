@@ -8,4 +8,4 @@ console.log(texto.match(/[A-z]/g)) // usa os intervalos da tabela UNICODE/ASCII,
 
 // Como visto a ordem crescente deve ser respeitada
 // no entando nem sempre essa ordemé clara
-// console.log(texto.match(/[a-Z]/g)) // esception
+// console.log(texto.match(/[a-Z]/g)) // exception
