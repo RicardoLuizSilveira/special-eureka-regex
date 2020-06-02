@@ -26,6 +26,9 @@
   - [Desafios](#desafios)
       - [01 Extrair a extensão .mp3 de arquivos](#01-extrair-a-extensão-mp3-de-arquivos)
       - [02 Encontrar expressão com espaços](#02-encontrar-expressão-com-espaços)
+      - [03 Extrair os CPFs](#03-extrair-os-cpfs)
+      - [04 Extrair os telefones](#04-extrair-os-telefones)
+      - [05 Extrair email](#05-extrair-email)
 ## Caracteres
 ### Literais
 *File: [Literais.js](caracteres/Literais.js)*
@@ -203,3 +206,37 @@ console.log(texto.match(/<your regex here>/))
 > expected result: `[ 'a___b' ]`
 
 *[Solution](caracteres/DesafioTresEspacos.js)*
+
+#### 03 Extrair os CPFs
+
+```js
+const texto = `CPF dos aprovados:
+              - 658.587.258-69
+              - 698.874.412-25
+              - 236.987.258-65`
+console.log(texto.match(/<your regex here>/))
+```
+
+*[Solution](quantificadores/DesafioCPF.js)*
+
+#### 04 Extrair os telefones
+
+```js
+const texto = `Lista telefônica:
+              - (11) 98745-6325
+              -5874-1236`
+console.log(texto.match(/<your regex here>/))
+```
+
+*[Solution](quantificadores/DesafioTelefone.js)*
+
+#### 05 Extrair email
+
+```js
+const texto = `Os emails dos convidados são:
+              - g.freeman@blackmesa.com
+              - dog@gmail.com.br`
+console.log(texto.match(/<your regex here>/))
+```
+
+*[Solution](quantificadores/DesafioEmail.js)*
