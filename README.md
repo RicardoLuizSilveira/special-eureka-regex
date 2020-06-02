@@ -19,6 +19,7 @@
     - [Conjuntos unicode](#conjuntos-unicode)
   - [Quantificadores](#quantificadores)
     - [Zero Um](#zero-um)
+    - [Um mais](#um-mais)
   - [Desafios](#desafios)
       - [01 Extrair a extensão .mp3 de arquivos](#01-extrair-a-extensão-mp3-de-arquivos)
       - [02 Encontrar expressão com espaços](#02-encontrar-expressão-com-espaços)
@@ -159,6 +160,10 @@ Como no português existem palavras acentuadas e o shorthand **\w** nãoconsider
 
 *File: [Zero Um](quantificadores/ZeroUm.js)*
 
+### Um mais
++ é o quantificador um ou mais, o caractere que estiver a esquerda desse simbolo deve estar presente uma vez  ou mais na expressão
+
+*File: [Zero Um](quantificadores/UmMais.js)*
 
 ## Desafios
 #### 01 Extrair a extensão .mp3 de arquivos
