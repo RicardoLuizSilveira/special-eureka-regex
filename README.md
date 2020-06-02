@@ -17,6 +17,8 @@
     - [Shorthands](#shorthands)
     - [Conjuntos Negados](#conjuntos-negados)
     - [Conjuntos unicode](#conjuntos-unicode)
+  - [Quantificadores](#quantificadores)
+    - [Zero Um](#zero-um)
   - [Desafios](#desafios)
       - [01 Extrair a extensão .mp3 de arquivos](#01-extrair-a-extensão-mp3-de-arquivos)
       - [02 Encontrar expressão com espaços](#02-encontrar-expressão-com-espaços)
@@ -33,10 +35,12 @@
 | []                  | conjunto:        | Conjunto de caracteres permitidos  |
 | [^]                 | conjunto negado: | Conjunto de caracteres proibidos   |
 | **Quantificadores** |                  |                                    |
-| ?                   | Opcional         | Zero ou um                         |
-| \*                  | Asterisco        | Zero ou mais                       |
-| \+                  | Mais             | Um ou mais                         |
+| ? {0,1}             | Opcional         | Zero ou um                         |
+| \* {0,}             | Asterisco        | Zero ou mais                       |
+| \+ {1,}             | Mais             | Um ou mais                         |
 | {n, m}              | Chaves           | De n até m                         |
+| {n,}                | Chaves           | n ou mais                          |
+| {n}                 | Chaves           | exatamente n                       |
 | **Âncoras**         |                  |                                    |
 | ^                   | Circunflexo      | Inicio da **linha**                |
 | $                   | Cifrão           | Fim da **linha**                   |
@@ -148,6 +152,13 @@ Quando usado **dentro** de um conjunto e no **início** nega o regex
 Como no português existem palavras acentuadas e o shorthand **\w** nãoconsidera acentuação, para selecionar esses caracteres pode ser necessário consultar atabela unicode e adicionar ou remover alguns caracteres.
 
 *File: [Conjuntos Unicode](Conjuntos/ConjuntosUnicode.js)*
+
+## Quantificadores
+### Zero Um
+? é o quantificador zero ou um, o caractere que estiver a esquerda desse simbolo pode estar presente uma vez na expressão ou nenhuma
+
+*File: [Zero Um](quantificadores/ZeroUm.js)*
+
 
 ## Desafios
 #### 01 Extrair a extensão .mp3 de arquivos
