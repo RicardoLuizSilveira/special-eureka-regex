@@ -25,6 +25,7 @@
     - [Greedy, (quantificadores gulosos)](#greedy-quantificadores-gulosos)
   - [Grupos](#grupos)
     - [Grupos](#grupos-1)
+    - [Retrovisores](#retrovisores)
   - [Desafios](#desafios)
       - [01 Extrair a extensão .mp3 de arquivos](#01-extrair-a-extensão-mp3-de-arquivos)
       - [02 Encontrar expressão com espaços](#02-encontrar-expressão-com-espaços)
@@ -192,6 +193,20 @@ Grupos são expressões entre parênteses () que aceitam quantificadores que val
 
 *File: [Grupos](grupos/Grupos.js)*
 
+### Retrovisores
+Retrovisor é um modo de reutilizar a expressão de um grupo.
+
+Por padrão quando um grupo é utilizado ele é armazenado e pode ser reutilizado através de um número, como se fosse um parâmetro. Esse número referancia a ordem que o grupo fo usado.
+> /<(div)>.+<\/`\1`>/g
+
+Ao utilizar a `\1` estamos reutilizando o primeiro grupo, no caso, `(div)`.
+
+Por padrão um grupo sempre é armazenado, para que isso não ocorra pode-se usar a flag `?:`
+> /<(`?:`div)>.+<\/div>/g
+
+Nessa caso o grupo `\1` não pode ser utilizado porque não foi armazenado.
+
+*File: [Retrovisores](grupos/Retrovisores.js)*
 
 ## Desafios
 #### 01 Extrair a extensão .mp3 de arquivos
