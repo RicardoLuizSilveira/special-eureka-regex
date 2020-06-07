@@ -27,6 +27,8 @@
     - [Grupos](#grupos-1)
     - [Retrovisores](#retrovisores)
     - [Grupos aninhados](#grupos-aninhados)
+    - [Cuidados com grupos](#cuidados-com-grupos)
+    - [Diferença entre Conjuntos e Grupos](#diferença-entre-conjuntos-e-grupos)
   - [Desafios](#desafios)
       - [01 Extrair a extensão .mp3 de arquivos](#01-extrair-a-extensão-mp3-de-arquivos)
       - [02 Encontrar expressão com espaços](#02-encontrar-expressão-com-espaços)
@@ -213,6 +215,21 @@ Nessa caso o grupo `\1` não pode ser utilizado porque não foi armazenado.
 É possivel utilizar grupos dentro de grupos
 
 *File: [Grupos Aninhados](grupos/GruposAninhados.js)*
+
+### Cuidados com grupos
+- um Grupo não sobrevive dentro de um intervalo (conjunto), isto é, dentro de um conjunto o grupo `(abc)` não existe e daca caractere é avaliado separadamente.
+- Um Intervalo (Conjunto) sobrevive dentro de um grupo.
+  
+*File: [Alguns cuidados](grupos/GruposAlgunsCuidados.js)*
+
+### Diferença entre Conjuntos e Grupos
+```js
+const texto1 = 'abc'
+console.log(texto1.match(/[abc]/g)) // [ 'a', 'b', 'c' ]
+console.log(texto1.match(/(abc)/g)) // [ 'abc' ]
+```
+
+*File: [Alguns cuidados](grupos/GruposAlgunsCuidados.js)*
 
 ## Desafios
 #### 01 Extrair a extensão .mp3 de arquivos
