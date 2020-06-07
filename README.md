@@ -26,6 +26,7 @@
   - [Grupos](#grupos)
     - [Grupos](#grupos-1)
     - [Retrovisores](#retrovisores)
+    - [Grupos aninhados](#grupos-aninhados)
   - [Desafios](#desafios)
       - [01 Extrair a extensão .mp3 de arquivos](#01-extrair-a-extensão-mp3-de-arquivos)
       - [02 Encontrar expressão com espaços](#02-encontrar-expressão-com-espaços)
@@ -207,6 +208,11 @@ Por padrão um grupo sempre é armazenado, para que isso não ocorra pode-se usa
 Nessa caso o grupo `\1` não pode ser utilizado porque não foi armazenado.
 
 *File: [Retrovisores](grupos/Retrovisores.js)*
+
+### Grupos aninhados
+É possivel utilizar grupos dentro de grupos
+
+*File: [Grupos Aninhados](grupos/GruposAninhados.js)*
 
 ## Desafios
 #### 01 Extrair a extensão .mp3 de arquivos
