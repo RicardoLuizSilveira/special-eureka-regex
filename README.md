@@ -29,6 +29,7 @@
     - [Grupos aninhados](#grupos-aninhados)
     - [Cuidados com grupos](#cuidados-com-grupos)
     - [Diferença entre Conjuntos e Grupos](#diferença-entre-conjuntos-e-grupos)
+    - [Grupos Especiais](#grupos-especiais)
   - [Desafios](#desafios)
       - [01 Extrair a extensão .mp3 de arquivos](#01-extrair-a-extensão-mp3-de-arquivos)
       - [02 Encontrar expressão com espaços](#02-encontrar-expressão-com-espaços)
@@ -230,6 +231,15 @@ console.log(texto1.match(/(abc)/g)) // [ 'abc' ]
 ```
 
 *File: [Alguns cuidados](grupos/GruposAlgunsCuidados.js)*
+
+### Grupos Especiais
+- Positive lookahead
+- Negative lookahead
+*File: [Grupos especiais 1](grupos/GruposEspeciais1.js)*
+
+- Positive Lookbehind
+- Negative Lookbehind
+*File: [Grupos especiais 2](grupos/GruposEspeciais2.rb)*
 
 ## Desafios
 #### 01 Extrair a extensão .mp3 de arquivos
