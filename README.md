@@ -33,6 +33,7 @@
   - [Bordas](#bordas)
     - [Bordas](#bordas-1)
     - [Dot All](#dot-all)
+    - [Multiline](#multiline)
   - [Desafios](#desafios)
       - [01 Extrair a extensão .mp3 de arquivos](#01-extrair-a-extensão-mp3-de-arquivos)
       - [02 Encontrar expressão com espaços](#02-encontrar-expressão-com-espaços)
@@ -260,6 +261,11 @@ O ponto não resolve para \n, desse modo para selecionar todo um texto usamos o 
 [\s\S] por exemplo
 
 *File: [Dotall](bordas/DotAll.js)*
+
+### Multiline
+Em textos com quebras de linha para que as linhas sejam avaliadas individualmente usamos a flag multiline `m`
+
+*File: [Multiline](bordas/Multiline.js)*
 
 ## Desafios
 #### 01 Extrair a extensão .mp3 de arquivos
