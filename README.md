@@ -30,6 +30,7 @@
     - [Cuidados com grupos](#cuidados-com-grupos)
     - [Diferença entre Conjuntos e Grupos](#diferença-entre-conjuntos-e-grupos)
     - [Grupos Especiais](#grupos-especiais)
+  - [Bordas](#bordas)
   - [Desafios](#desafios)
       - [01 Extrair a extensão .mp3 de arquivos](#01-extrair-a-extensão-mp3-de-arquivos)
       - [02 Encontrar expressão com espaços](#02-encontrar-expressão-com-espaços)
@@ -240,6 +241,15 @@ console.log(texto1.match(/(abc)/g)) // [ 'abc' ]
 - Positive Lookbehind
 - Negative Lookbehind
 *File: [Grupos especiais 2](grupos/GruposEspeciais2.rb)*
+
+## Bordas
+Bordas são limites de strings ou linhas, eles são delimitados por
+**espaços, quebras de linha, caracteres com acento**
+
+- ^r Inicio de linha/string
+- r$ Final de linha/string
+
+*File: [Bordas](bordas/Bordas.js)*
 
 ## Desafios
 #### 01 Extrair a extensão .mp3 de arquivos
