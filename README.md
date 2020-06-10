@@ -33,6 +33,7 @@
   - [Bordas](#bordas)
     - [Bordas](#bordas-1)
     - [Dot All](#dot-all)
+    - [Borda de palavras](#borda-de-palavras)
     - [Multiline](#multiline)
   - [Desafios](#desafios)
       - [01 Extrair a extensão .mp3 de arquivos](#01-extrair-a-extensão-mp3-de-arquivos)
@@ -261,6 +262,15 @@ O ponto não resolve para \n, desse modo para selecionar todo um texto usamos o 
 [\s\S] por exemplo
 
 *File: [Dotall](bordas/DotAll.js)*
+
+### Borda de palavras
+Uma borda evidente de palavra é o espaço que separa uma palavra de outra, ao colocar um `\b` antes ou depois de uma letra ou expressão define-se que antes disso tem uma borda, no nosso exemplo um espaço.
+
+Isto é a palavra começa ou termina com a expressão.
+
+No entando quanto se trata de expressões regulares uma bora é qualquer caractere contido em \W, isto é, o complementar de \w `[^A-Za-z0-9_]`
+
+*File: [Bordas de palavras](bordas/BordaPalavra.js)*
 
 ### Multiline
 Em textos com quebras de linha para que as linhas sejam avaliadas individualmente usamos a flag multiline `m`
