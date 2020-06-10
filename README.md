@@ -31,6 +31,8 @@
     - [Diferença entre Conjuntos e Grupos](#diferença-entre-conjuntos-e-grupos)
     - [Grupos Especiais](#grupos-especiais)
   - [Bordas](#bordas)
+    - [Bordas](#bordas-1)
+    - [Dot All](#dot-all)
   - [Desafios](#desafios)
       - [01 Extrair a extensão .mp3 de arquivos](#01-extrair-a-extensão-mp3-de-arquivos)
       - [02 Encontrar expressão com espaços](#02-encontrar-expressão-com-espaços)
@@ -243,6 +245,7 @@ console.log(texto1.match(/(abc)/g)) // [ 'abc' ]
 *File: [Grupos especiais 2](grupos/GruposEspeciais2.rb)*
 
 ## Bordas
+### Bordas
 Bordas são limites de strings ou linhas, eles são delimitados por
 **espaços, quebras de linha, caracteres com acento**
 
@@ -250,6 +253,13 @@ Bordas são limites de strings ou linhas, eles são delimitados por
 - r$ Final de linha/string
 
 *File: [Bordas](bordas/Bordas.js)*
+
+### Dot All
+O ponto não resolve para \n, desse modo para selecionar todo um texto usamos o artifício de selecionar a união de um grupo de seu complementar
+
+[\s\S] por exemplo
+
+*File: [Dotall](bordas/DotAll.js)*
 
 ## Desafios
 #### 01 Extrair a extensão .mp3 de arquivos
